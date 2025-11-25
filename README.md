@@ -19,3 +19,24 @@ Heading Elements (<h1> – <h6>)
 Practice Questions
 
 Boilerplate HTML Structure
+
+DAY -2
+
+✅ Topics Covered
+
+Lists in HTML
+
+Attributes in HTML
+
+Anchor Element
+
+Image Element
+
+More HTML Tags
+
+Comments in HTML
+
+Is HTML Case Sensitive?
+
+Practice Questions
+
