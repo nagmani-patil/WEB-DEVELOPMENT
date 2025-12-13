@@ -20,7 +20,7 @@ Practice Questions
 
 Boilerplate HTML Structure
 
-DAY -2
+DAY -2 (LEVEL 1 -PART B)
 
 ✅ Topics Covered
 
