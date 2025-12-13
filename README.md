@@ -42,23 +42,14 @@ Practice Questions
 
 DAY 3 📘HTML (Level 2)
 📌 Topics Covered
-
 Inline vs Block Elements
-
 <div> Element
-
 <span> Element
-
 <hr> Tag
-
 <sup> & <sub>
-
 Semantic Markup
-
 Semantic Tags
-
 HTML Entities
-
 Emmet
 
 
