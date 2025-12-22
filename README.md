@@ -45,11 +45,21 @@ DAY 3 📘HTML (Level 2)
 Inline vs Block Elements
 <div> Element
 <span> Element
-<hr> Tag
+<hr> 
 <sup> & <sub>
 Semantic Markup
 Semantic Tags
 HTML Entities
 Emmet
 
+Day 4🔥 HTML LEVEL 3 – 
 
+✔ Tables in HTML
+✔ Semantics in Tables (thead, tbody, tfoot)
+✔ rowspan & colspan
+✔ Forms in HTML
+✔ Input Elements
+✔ Labels & Placeholders
+✔ Button Element
+✔ Name Attribute
+✔ Checkbox, Radio, Select, Range, Textarea
