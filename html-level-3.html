@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Practice Qs 7, 8, 9</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        table, th, td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        .box {
+            border: 2px solid black;
+            padding: 15px;
+            width: fit-content;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Practice Qs 7 -->
+    <h2>Practice Qs 7</h2>
+    <table>
+        <caption><b>A test table with merged cells</b></caption>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red eyes</th>
+        </tr>
+        <tr>
+            <th>Height</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <th>Males</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <th>Females</th>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+
+    <!-- Practice Qs 8 -->
+    <h2>Practice Qs 8</h2>
+    <form action="https://www.google.com/search" method="get" target="_blank">
+        <input type="text" name="q" placeholder="Search on Google">
+        <input type="submit" value="Search">
+    </form>
+
+    <!-- Practice Qs 9 -->
+    <h2>Practice Qs 9</h2>
+    <div class="box">
+        <h3>Registration Form</h3>
+        <form>
+            <input type="text" placeholder="First Name"><br><br>
+            <input type="text" placeholder="Last Name"><br><br>
+
+            Please select gender
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select><br><br>
+
+            Do you agree to all terms of service?
+            <input type="checkbox"> Yes, I agree<br><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+</body>
+</html>
