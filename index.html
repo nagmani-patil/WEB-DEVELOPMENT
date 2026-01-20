@@ -1,38 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Instagram Clone</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header>
+  <h1>Trainer Management System</h1>
+  <p>Institute Training Portal</p>
+</header>
 
-<div class="app">
+<!-- ADD TRAINER -->
+<section class="card">
+  <h2>Add Trainer</h2>
+  <form>
+    <input type="text" placeholder="Employee ID">
+    <input type="text" placeholder="Trainer Name">
+    <input type="text" placeholder="Subject">
+    <button type="button">Add Trainer</button>
+  </form>
+</section>
 
-  <!-- STORY -->
-  <div class="stories">
-    <div class="story-ring">
-      <img src="img.jpg.jpeg">
-    </div>
-    <p>your_story</p>
-  </div>
+<!-- VIEW TRAINERS -->
+<section class="card">
+  <h2>View All Trainers</h2>
+  <button type="button">Get Trainers</button>
 
-  <!-- POST -->
-  <div class="post">
-    <div class="post-header">
-      <img src="img.jpg.jpeg" class="profile">
-      <b>your_username</b>
-    </div>
+  <table>
+    <tr>
+      <th>Emp ID</th>
+      <th>Name</th>
+      <th>Subject</th>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>Rahul Sharma</td>
+      <td>Java</td>
+    </tr>
+  </table>
+</section>
 
-    <img src="img.jpg.jpeg" class="post-img">
+<!-- SEARCH TRAINER -->
+<section class="card">
+  <h2>Search Trainer</h2>
+  <input type="text" placeholder="Enter Trainer ID or Subject">
+  <button type="button">Search</button>
+</section>
 
-    <div class="actions">❤️ 💬 ✈️</div>
-    <div class="caption">
-      <b>your_username</b> Nature vibes 🌿✨
-    </div>
-  </div>
+<!-- ADD SUBJECT -->
+<section class="card">
+  <h2>Add Subject</h2>
+  <form>
+    <input type="text" placeholder="Subject ID">
+    <input type="text" placeholder="Subject Name">
+    <button type="button">Add Subject</button>
+  </form>
+</section>
 
-</div>
+<!-- VIEW SUBJECT -->
+<section class="card">
+  <h2>View Subjects</h2>
+  <button type="button">Get Subjects</button>
+ 
+  <table>
+    <tr>
+      <th>Subject ID</th>
+      <th>Subject Name</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Java</td>
+    </tr>
+  </table>
+</section>
 
+<footer>
+  <p>© 2026 Trainer Management System</p>
+</footer>
+
+    
 </body>
 </html>
